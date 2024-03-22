@@ -12,9 +12,9 @@ include 'header.php';
 </head>
 <body>
     <section>
-        <h1 class="coke">Super Duper Toaster mk11 med varmebehandling</h1>
-        <img src="toaster.png" alt="actually a toaster" id="toast">
-        <h2 class="coke">1200 kr,-</h2>
+        <h1 class="coke">Jam</h1>
+        <img src="jam.png" alt="actually a toaster" id="toast">
+
     </section>
 
 </body>

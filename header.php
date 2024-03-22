@@ -3,29 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
-        <h1>Toaster Hjemmeside</h1>
+        <h1 class="sera">Toaster Hjemmeside</h1>
+        <a href="index.php" class="link">Home</a>
+        <a href="includeside.php" class="link">Toaster</a>
+        <a href="bread.php" class="link">Brød</a>
+        <a href="jam.php" class="link">Jam</a>
     </header>
-    <style>
-        h1 {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: lightcoral;
-            text-align: center;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            position: relative;
-            top: 0;
-            padding-bottom: 15px;
-            padding-top: 15px;
-        }
-    </style>
 </body>
 </html>

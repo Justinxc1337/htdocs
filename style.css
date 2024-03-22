@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#toast {
+    width: 20%;
+    height: 50%;
+}
+
+.coke {
+    color: D0FFCE;
+}
+
+section {
+    background-color: 3D2B3D    ;
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.sera {
+    color: CBEFB6;
+}
+
+header {
+    background-color: 9B1D20;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+footer {
+    position: fixed;
+    background-color: 635D5C;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;    
+    bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: CBEFB6;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -8,6 +8,7 @@
 
 <body>
   <h1>Login Side</h1>
+  <a href="includeside.php">side2</a>
   <form action="login.php" method="post">
     <label for="uname">Username:</label>
     <input name="username" id="uname" type="text"></input>
