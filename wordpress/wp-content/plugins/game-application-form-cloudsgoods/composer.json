@@ -1,0 +1,22 @@
+{
+    "name": "dmitry/cg-plugin",
+    "description": "WordPress Plugin for CloudsGoods",
+    "autoload": {
+        "psr-4": {
+            "CloudsGoodsApp\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Shurbin",
+            "email": "dshurbin@gmail.com"
+        }
+    ],
+    "config": {
+	"vendor-dir": "lib"
+    },
+    "require": {
+        "eftec/bladeone": "^4.8",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
