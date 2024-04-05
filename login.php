@@ -49,17 +49,3 @@ if ($result->num_rows == 0) {
 
 $conn->close();
 ?>
-
-<html>
-
-<head>
-  <title>Php - Dag 1 - Svarside</title>
-  <link rel="stylesheet" type="text/css" href="php-dag1.css">
-  <meta charset="utf-8">
-</head>
-
-<body>
-  Du tastede <?php echo $res;?>
-</body>
-
-</html>

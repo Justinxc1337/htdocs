@@ -1,8 +1,13 @@
+<?php
+include 'header.php';
+?>
+
 <html>
 
 <head>
   <title>Php - Login</title>
   <link rel="stylesheet" type="text/css" href="php-dag1.css">
+  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
 </head>
 
@@ -21,3 +26,7 @@
 </body>
 
 </html>
+
+<?php
+include 'footer.php';
+?>
