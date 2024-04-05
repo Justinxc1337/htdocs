@@ -12,17 +12,18 @@ include 'header.php';
 </head>
 
 <body>
-  <h1>Login Side</h1>
-  <a href="includeside.php">side2</a>
-  <form action="login.php" method="post">
-    <label for="uname">Username:</label>
-    <input name="username" id="uname" type="text"></input>
-    <br><br>
-    <label for="passw">Password:</label>
-    <input name="password" id="passw" type="text"></input>
-    <br><br>
-    <input value="Login" type="submit"></input>
-  </form>
+  <section>
+    <h1 class="cokey">Login Side</h1>
+    <form action="login.php" method="post">
+      <label for="uname">Username:</label>
+      <input name="username" id="uname" type="text"></input>
+      <br><br>
+      <label for="passw">Password:</label>
+      <input name="password" id="passw" type="text"></input>
+      <br><br>
+      <input value="Login" type="submit"></input>
+    </form>
+  </section>
 </body>
 
 </html>
