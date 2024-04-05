@@ -14,10 +14,10 @@ include 'header.php';
   <section>
     <h1 class="coke">Login Side</h1>
     <form action="login.php" method="post">
-      <label for="uname">Username:</label>
+      <label for="uname" class="cokey">Username:</label>
       <input name="username" id="uname" type="text"></input>
       <br><br>
-      <label for="passw">Password:</label>
+      <label for="passw" class="cokey">Password:</label>
       <input name="password" id="passw" type="text"></input>
       <br><br>
       <input value="Login" type="submit"></input>
