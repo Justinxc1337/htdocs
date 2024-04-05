@@ -13,7 +13,7 @@ include './includeviews/header.php';
 <body>
   <section>
     <h1 class="coke">Login Side</h1>
-    <form action="login.php" method="post">
+    <form action="../controller/login.php" method="post">
       <label for="uname" class="cokey">Username:</label>
       <input name="username" id="uname" type="text"></input>
       <br><br>
