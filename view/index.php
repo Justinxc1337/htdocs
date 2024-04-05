@@ -1,12 +1,12 @@
 <?php
-include 'header.php';
+include './includeviews/header.php';
 ?>
 
 <html>
 
 <head>
   <title>Php - Login</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../public/style.css">
   <meta charset="utf-8">
 </head>
 
@@ -28,5 +28,5 @@ include 'header.php';
 </html>
 
 <?php
-include 'footer.php';
+include './includeviews/footer.php';
 ?>
