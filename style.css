@@ -11,12 +11,9 @@ body {
 }
 
 .coke {
-    color: D0FFCE;
-}
-
-.cokey {
-    color: D0FFCE;
-    padding: 10px;
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 section {

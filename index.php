@@ -6,14 +6,13 @@ include 'header.php';
 
 <head>
   <title>Php - Login</title>
-  <link rel="stylesheet" type="text/css" href="php-dag1.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
 </head>
 
 <body>
   <section>
-    <h1 class="cokey">Login Side</h1>
+    <h1 class="coke">Login Side</h1>
     <form action="login.php" method="post">
       <label for="uname">Username:</label>
       <input name="username" id="uname" type="text"></input>
