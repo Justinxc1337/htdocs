@@ -2,28 +2,30 @@
 include './includeviews/header.php';
 ?>
 
+<!DOCTYPE html>
+
 <html>
 
 <head>
-  <title>Php - Login</title>
+  <title>createUser</title>
   <link rel="stylesheet" type="text/css" href="../public/style.css">
   <meta charset="utf-8">
 </head>
 
 <body>
   <section>
-    <h1 class="coke">Login Side</h1>
-    <form action="../controller/login.php" method="post">
+    <h1 class="coke">Opret Bruger</h1>
+    <form action="../controller/createUser.php" method="post">
       <label for="uname" class="cokey">Username:</label>
       <input name="username" id="uname" type="text"></input>
       <br><br>
       <label for="passw" class="cokey">Password:</label>
       <input name="password" id="passw" type="text"></input>
       <br><br>
-      <input value="Login" type="submit"></input>
+      <input value="Opret Bruger" type="submit"></input>
     </form>
     <br>
-    <a href="create.php" class="link">Gå til opret bruger side</a>
+    <a href="index.php" class="link">Gå til Login side</a>
   </section>
 </body>
 
