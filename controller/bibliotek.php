@@ -21,6 +21,7 @@ echo "<br>";
 var_dump($Bog1 instanceof Bog);
 
 $hylde = new Boghylde();
+
 $Bog1 = new Bog('H.C. Kartoffelsen', 'Den flotte ælling');
 $Bog2 = new Bog('Karen Blixen', 'Terminator');
 $Bog3 = new Bog('Karen Blixen', 'Skolelederens dagbog');
@@ -28,6 +29,7 @@ $Bog4 = new Bog('Karen Blixen', "Jakob og Mikkel's eventyr");
 $Bog5 = new Bog("H.C. Andersen", "Jakob og Mikkel's eventyr");
 
 echo "<br>";
+
 $hylde->tilføjBogObjekt($Bog1);
 $hylde->tilføjBogObjekt($Bog2);
 $hylde->tilføjBogObjekt($Bog3);
@@ -51,7 +53,19 @@ foreach ($bogf as $bog) {
 echo "<br>";
 
 foreach ($hylde->findAlleBogObjekter() as $bog) {
-     echo $bog->læsForfatter() . ' - ' . $bog->læsTitel() . "<br>";
+    echo $bog->læsForfatter() . ' - ' . $bog->læsTitel() . "<br>";
+}
+
+echo "<br>";
+
+$hylde->opdaterBogObjekt('H.C. Andersen', 'Den grimme ælling');
+
+echo "<br>";
+
+unset($bog2);
+$bog2 = null;
+foreach ($hylde->findAlleBogObjekter() as $bog) {
+    echo $bog->læsForfatter() . ' - ' . $bog->læsTitel() . "<br>";
 }
 
 ?>

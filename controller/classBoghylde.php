@@ -30,12 +30,13 @@ class Boghylde {
         return $this->boghyldeList;
     }
 
-    function opdaterBogObjekt() {
-
+    function opdaterBogObjekt($forfatter, $titel) {
+        $this->forfatter = $forfatter;
+        $this->titel = $titel;
     }
 
-    function sletBogObjekt() {
-        
+    function sletBogObjekt($bogslet) {
+        unset($this->boghyldeList[$bogslet]);
     }
 }
 ?>
