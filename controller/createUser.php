@@ -38,13 +38,14 @@ if ($result->num_rows == 0) {
 $conn->close();
 
 $_SESSION["user"] = $user;
+header('Location: ../view/bread.php');
 ?>
 
 <html>
 
 <head>
-  <title>Php - Dag 1 - Svarside</title>
-  <link rel="stylesheet" type="text/css" href="php-dag1.css">
+  <title>Php</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
   <meta charset="utf-8">
 </head>
 
