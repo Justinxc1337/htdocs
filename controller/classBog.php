@@ -21,14 +21,13 @@ class Bog {
         return $this->titel;
     }
 
-    function opdaterBog() {
-        
+    function opdaterForfatter($forfatter) {
+        $this->forfatter = $forfatter;
     }
 
-    function sletBog() {
-
+    function opdaterTitel($titel) {
+        $this->titel = $titel;
     }
-
 }
 
 
