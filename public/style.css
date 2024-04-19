@@ -73,3 +73,11 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.genshin {
+    text-align: center;
+    align-items: center;
+    color: green;
+    font-size: 1.5em;
+    font-weight: bold;
+}

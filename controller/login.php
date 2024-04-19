@@ -34,7 +34,6 @@ if ($result->num_rows == 1) {
   $res = "Bruger eksisterer ikke.";
 }
 
-$conn->close();
 
 $row = mysqli_fetch_array($result);
 if (password_verify($pass, $row['password'])) {
@@ -46,6 +45,9 @@ if (password_verify($pass, $row['password'])) {
 } else {
     $res = "Bruger fundet, men password forkert.";
 }
+
+$conn->close();
+
 ?>
 
 <html>

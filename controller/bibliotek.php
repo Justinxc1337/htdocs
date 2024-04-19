@@ -1,4 +1,6 @@
 <?php
+include '../view/includeviews/header2.php';
+
 include 'classBog.php';
 include 'classBoghylde.php';
 
