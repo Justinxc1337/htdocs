@@ -1,11 +1,6 @@
 <?php
-session_start();
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-    header('Location: index.php');
-    exit;
-}
-?>
-<?php
+include 'session.php';
+include 'checkSession.php';
 include './includeviews/header.php';
 ?>
 

@@ -9,12 +9,14 @@
 <body>
     <header>
         <h1 class="sera">Toaster Hjemmeside</h1>
-        <a href="../view/index.php" class="link">Home</a>
         <a href="../view/includeside.php" class="link">Toaster</a>
         <a href="../view/bread.php" class="link">Brød</a>
         <a href="../view/jam.php" class="link">Jam</a>
-        <a href="Bibliotek.php" class="link">Bibliotek</a>
-        <a href="genshinshow.php" class="link">Genshin</a>
+        <a href="bibliotek.php" class="link">Bibliotek</a>
+        <a href="../view/genshinshow.php" class="link">Genshin</a>
+        <form action="session.php" method="post">
+            <input type="submit" name="logout" value="Logout">
+        </form>
     </header>
 </body>
 </html>

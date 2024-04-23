@@ -1,4 +1,6 @@
-<?php
+<?php 
+include '../view/session.php';
+include '../view/checkSession.php';
 include '../view/includeviews/header2.php';
 ?>
 
@@ -11,7 +13,7 @@ include '../view/includeviews/header2.php';
 </head>
 <body>
     <main style="margin-top: 10px; text-align: center;">
-        <form action="genshin.php" method="get">
+        <form action="../controller/genshin.php" method="get">
             <label for="id">Enter a character ID:</label>
             <input type="number" id="id" name="id" min="1" max="51">
             <input type="submit" value="Submit">

@@ -1,5 +1,5 @@
 <?php
-include '../view/includeviews/header2.php';
+include '../view/genshinshow.php';
 // Function to fetch JSON data from API endpoint for a specific ID
 function fetchCharacterData($id) {
     $id = $_GET['id'] ?? 1; // get the ID from the query string, default to 1 if not provided

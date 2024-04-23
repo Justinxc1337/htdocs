@@ -1,6 +1,7 @@
 <?php
 include '../view/includeviews/header2.php';
-
+include '../view/session.php';
+include '../view/checkSession.php';
 include 'classBog.php';
 include 'classBoghylde.php';
 

@@ -1,5 +1,8 @@
 <?php
 include './includeviews/header.php';
+session_start();
+  
+if (!isset($_SESSION["user"])) { $_SESSION["user"] = "Guest"; }
 ?>
 
 <html>
