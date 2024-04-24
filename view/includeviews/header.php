@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1 class="sera">Toaster Hjemmeside</h1>
-        <a href="includeside.php" class="link">Toaster</a>
+        <a href="includeside.php" class="link">Toaster2</a>
         <a href="bread.php" class="link">Brød</a>
         <a href="jam.php" class="link">Jam</a>
         <a href="../controller/Bibliotek.php" class="link">Bibliotek</a>    
