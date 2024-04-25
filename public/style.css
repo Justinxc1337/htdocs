@@ -39,19 +39,6 @@ h1 {
     color: CBEFB6;
 }
 
-header {
-    background-color: 9B1D20;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    top: 0;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
 footer {
     position: fixed;
     background-color: 635D5C;

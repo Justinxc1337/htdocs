@@ -1,6 +1,4 @@
 <?php
-include 'session.php';
-include 'checkSession.php';
 include './includeviews/header.php';
 ?>
 
@@ -13,11 +11,16 @@ include './includeviews/header.php';
 
 </head>
 <body>
-    <section>
-        <h1 class="coke">Super Duper Toaster mk11 med varmebehandling</h1>
-        <img src="../public/toaster.png" alt="actually a toaster" id="toast">
-        <h2 class="coke">1200 kr,-</h2>
-    </section>
+    <main>
+        <article>
+            <section>
+                <h1 class="coke">Velkommen til Tomatkongen</h1>
+                <img src="../public/familie.png" alt="actually a toaster" id="toast">
+                <h2 class="coke">Vi deler glæde og tomater</h2>
+            </section>
+        </article>
+    </main>
+    
 
 </body>
 </html>

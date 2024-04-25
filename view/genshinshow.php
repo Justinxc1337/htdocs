@@ -1,7 +1,7 @@
 <?php 
-include '../view/session.php';
-include '../view/checkSession.php';
-include '../view/includeviews/header2.php';
+include 'session.php';
+include 'checkSession.php';
+include './includeviews/header.php';
 ?>
 
 <!DOCTYPE html>
@@ -9,6 +9,7 @@ include '../view/includeviews/header2.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/style.css">
     <title>Genshin API</title>
 </head>
 <body>

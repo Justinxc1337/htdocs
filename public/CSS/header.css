@@ -1,0 +1,57 @@
+header {
+    background-color: #0e1c2e;
+    margin: 0;
+    display: grid;
+}
+
+#headername {
+    font-size: 2.5em;
+    text-align: center;
+    color: #bf0603ff;
+    margin: 0;
+    font-weight: 800;
+    font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
+}
+
+#headertitel {
+    font-size: 1.5em;
+    text-align: center;
+    color: #8d0801ff;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#headerlinktext {
+    text-decoration: none;
+}
+
+#navmenu {
+    text-align: center;
+    background-color: #152232;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: #708d81ff;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+
+.navlinks2 {
+    background: none;
+    color: #708d81ff;
+    font-size: 1em;
+    font-family: 'Poppins', 'Black', 'Roboto', sans-serif; 
+    cursor: pointer;
+}
+
+.navlinks2:hover {
+    text-decoration: underline; 
+}
