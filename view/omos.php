@@ -1,6 +1,4 @@
 <?php
-include 'session.php';
-include 'checkSession.php';
 include './includeviews/header.php';
 ?>
 

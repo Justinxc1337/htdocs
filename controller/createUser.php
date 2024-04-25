@@ -38,7 +38,7 @@ if ($result->num_rows == 0) {
 $conn->close();
 
 $_SESSION["user"] = $user;
-header('Location: ../view/bread.php');
+header('Location: ../view/index.php');
 ?>
 
 <html>
