@@ -2,17 +2,17 @@
 include './includeviews/header.php';
 ?>
 
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>om os</title>
     <link rel="stylesheet" href="../public/css/omos.css">
 
 </head>
 <body>
 <main>
-        
+        <!-- Info side om Tomatkongen -->
         <section id="info">
             <h2 id="gameheader">Tomatkongen</h2>
             <h3 id="gameinfo">Vi os Tomatkongen holder et fællesskab sammen med befolkningen og de andre farme, kærlig hilsen <a href="https://www.renpy.org/" target="_blank"><span class="pred">Tomatkongen.</span></a></h3>
@@ -41,13 +41,13 @@ include './includeviews/header.php';
                 </section>
 
                 <section class="el el3">
-                    <p class="p header">Tomat lorem ipsum</p>
-                    <p class="p header2">Tomat lorem ipsum</p>
+                    <p class="p header">Vores Mission</p>
+                    <p class="p header2">Vi har en mission om at dyrke de bedste tomater i verden og levere dem til vores kunder med kvalitet og friskhed i fokus.</p>
                 </section>
 
                 <section class="el el4">
-                    <p class="p header">Tomat lorem ipsum</p>
-                    <p class="p header2">Tomat lorem ipsum</p>
+                    <p class="p header">Vores Vision</p>
+                    <p class="p header2">Vi har en vision om at revolutionere tomatformen og skabe nye og spændende sorter, der vil overraske og glæde vores kunder.</p>
                 </section>
 
                 <section class="el el5">
@@ -60,15 +60,15 @@ include './includeviews/header.php';
                 <!-- fix centering idk -->
                 <section class="videossect">
                     <section>
-                        <p class="p headermobile">Murder Mystery</p>
+                        <p class="p headermobile">Tomat lorem ipsum</p>
                         <!-- Reserved for gifs/videos of games -->
                     </section>
                     <section>
-                        <p class="p headermobile">Minigames</p>
+                        <p class="p headermobile">Tomat lorem ipsum</p>
                         <!-- Reserved for gifs/videos of games -->
                     </section>
                     <section>
-                        <p class="p headermobile">idk</p>
+                        <p class="p headermobile">Tomat lorem ipsum</p>
                         <!-- Reserved for gifs/videos of games -->
                     </section>
                 </section>

@@ -12,3 +12,5 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+// Bruges til mobil version af menu, så den kan foldes ud og ind.

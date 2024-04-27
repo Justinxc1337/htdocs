@@ -5,6 +5,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Footer, ikke gjort meget ud af -->
     <footer>
         <h1>For inquiries @Tomatkongen.php.gmail.com</h1>
     </footer>

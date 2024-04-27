@@ -14,6 +14,7 @@ include './includeviews/header.php';
 
 <body>
   <section>
+    <!-- Bruger oprettes her og sættes ind i databasen som tillader at login virker med det nye Username og Password -->
     <h1 class="coke">Opret Bruger</h1>
     <form action="../controller/createUser.php" method="post">
       <label for="uname" class="cokey">Username:</label>

@@ -6,12 +6,13 @@ include './includeviews/header.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produkter</title>
     <link rel="stylesheet" href="../public/css/produkter.css">
 
 </head>
 <body>
 <main>
+        <!-- Fremvisning af de forskellige produkter der sælges -->
         <article>
             <section class="sections">
                 <section>

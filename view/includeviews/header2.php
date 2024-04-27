@@ -11,7 +11,7 @@
         <a href="index.html" id="headerlinktext"><h1 id="headername">Tomatkongen</h1></a>
         <h2 id="headertitel">De bedste hjemmegroet tomater</h2>
     </header>
-
+    <!-- Header for PC version 2, grundet controller testning -->
     <nav id="navmenu">
         <a href="../view/includeside.php" class="navlinks">Forside</a>
         <a href="../view/omos.php" class="navlinks">Om Os</a>
